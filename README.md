@@ -1,67 +1,73 @@
 # YouTube Downloader App
 
-A lightweight desktop application to download YouTube videos and audio in various formats and qualities using `yt-dlp` and `ffmpeg`. Built with Python and PyQt5, it offers an easy-to-use graphical interface for managing downloads.
+A user-friendly desktop application built using PyQt5 for downloading YouTube videos and audio in various formats and qualities.
 
 ## Features
-- **Download Formats**: MP3 (audio) and MP4 (video).
-- **Quality Options**: Best, Medium, Low, or Worst.
-- **Custom Output Folder**: Choose where to save the downloads.
-- **Pause/Stop Downloads**: Ability to stop ongoing downloads.
-- **Multithreading**: Executes downloads in the background to keep the interface responsive.
 
-## Requirements
-- Python 3.8 or newer
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed
-- [FFmpeg](https://ffmpeg.org/) installed and accessible (path configurable in the app)
+- Download videos in MP4 format.
+- Extract audio as MP3 with customizable quality.
+- Choose from different quality options: Best, Medium, Low, and Worst.
+- Set your preferred output folder for downloads.
+
+## Screenshots
+
+![App Screenshot](https://github.com/user-attachments/assets/aaf13907-e2f0-4177-b185-05ed41ce6cf2)
 
 ## Installation
-1. Clone this repository:
+
+1. Clone the repository:
+
    ```bash
-   git clone https://github.com/yourusername/youtube-downloader-app.git
-   cd youtube-downloader-app
+   git clone https://github.com/your-username/YouTube-Downloader-App.git
+   cd YouTube-Downloader-App
    ```
-2. Install the required Python libraries:
+
+2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
-3. Install `yt-dlp`:
-   ```bash
-   pip install yt-dlp
-   ```
-4. Ensure `ffmpeg` is installed and provide its path in the app.
 
-## Running the Application
-Run the application with:
-```bash
-python youtube_downloader.py
-```
+3. Ensure FFmpeg is installed and accessible:
+
+   - Download and configure [FFmpeg](https://ffmpeg.org/download.html).
+   - Update the `ffmpeg_path` variable in the code to point to your FFmpeg installation.
 
 ## Usage
-1. Enter the YouTube URL of the video you want to download.
-2. Select the format (MP3 or MP4).
-3. Choose the quality (Best, Medium, Low, Worst).
-4. Specify the output folder (default: current working directory).
-5. Click **Download** to start downloading.
-6. To stop the download, click **Stop**.
 
-## Configuration
-- **FFmpeg Path**: Update the `ffmpeg_path` variable in the `YouTubeDownloaderApp` class to point to your `ffmpeg` executable.
+1. Run the application:
 
-## Screenshots
-![App Screenshot](https://github.com/user-attachments/assets/aaf13907-e2f0-4177-b185-05ed41ce6cf2)
+   ```bash
+   python app.py
+   ```
 
-## Troubleshooting
-- Ensure `yt-dlp` and `ffmpeg` are correctly installed.
-- Check the output folder path exists.
-- If the app fails to launch, ensure all dependencies are installed.
+2. Enter the YouTube URL, select the desired format and quality, and set the output folder.
+
+3. Click **Download** to start.
+
+## Requirements
+
+- Python 3.8 or higher
+- PyQt5
+- yt-dlp
+- FFmpeg
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [FFmpeg](https://ffmpeg.org/)
-- [PyQt5](https://riverbankcomputing.com/software/pyqt/intro)
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) for YouTube downloading functionality.
+- [FFmpeg](https://ffmpeg.org/) for audio and video processing.
+
