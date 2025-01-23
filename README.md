@@ -48,7 +48,7 @@ python youtube_downloader.py
 - **FFmpeg Path**: Update the `ffmpeg_path` variable in the `YouTubeDownloaderApp` class to point to your `ffmpeg` executable.
 
 ## Screenshots
-![App Screenshot](![image](https://github.com/user-attachments/assets/aaf13907-e2f0-4177-b185-05ed41ce6cf2))
+![App Screenshot](https://github.com/user-attachments/assets/aaf13907-e2f0-4177-b185-05ed41ce6cf2)
 
 ## Troubleshooting
 - Ensure `yt-dlp` and `ffmpeg` are correctly installed.
