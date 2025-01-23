@@ -18,7 +18,7 @@ A user-friendly desktop application built using PyQt5 for downloading YouTube vi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/YouTube-Downloader-App.git
+   git clone https://github.com/Recursive-Tahmal/YouTube-Downloader-App.git
    cd YouTube-Downloader-App
    ```
 
