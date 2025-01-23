@@ -7,6 +7,7 @@ A user-friendly desktop application built using PyQt5 for downloading YouTube vi
 - Download videos in MP4 format.
 - Extract audio as MP3 with customizable quality.
 - Choose from different quality options: Best, Medium, Low, and Worst.
+- Able to download playlists
 - Set your preferred output folder for downloads.
 
 ## Screenshots
